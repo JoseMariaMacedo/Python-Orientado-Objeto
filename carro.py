@@ -30,7 +30,10 @@ class Carro():
             self.is_ligado = False
         
     def acelerar(self, velocidade):
-        self.velocidade += velocidade
+        if self.is_ligado:
+          self.velocidade += velocidade
+        else:
+            print("O carro precisa estar ligado para ser acelerado")
     
         
         
