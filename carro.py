@@ -4,14 +4,14 @@ from tkinter.tix import Tree
 
 
 class Carro():
-    def __init__(self, cor, qtd_portas, tipo_combustivel, potencia, qtd_combustivel, is_ligado, velociade ):
+    def __init__(self, cor, qtd_portas, tipo_combustivel, potencia, qtd_combustivel, is_ligado, velocidade ):
         self.cor = cor
         self.qtd_portas = qtd_portas
         self.tipo_combustivel = tipo_combustivel
         self.potencia = potencia
         self.qtd_combustivel = qtd_combustivel
         self.is_ligado = is_ligado
-        self.velociade = velociade
+        self.velociade = velocidade
         
     def abastecer(self, qtd_combustivel):
         self.qtd_combustivel += qtd_combustivel
@@ -29,7 +29,8 @@ class Carro():
         else:
             self.is_ligado = False
         
-        
+    def acelerar(self, velocidade):
+        self.velocidade += velocidade
     
         
         
