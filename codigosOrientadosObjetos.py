@@ -1,3 +1,3 @@
 import carro
 
-carro.Carro("vermelhor", 4,"Flex", 1.0, 0, False)
+uno_vermelho = carro.Carro("vermelhor", 4,"Flex", 1.0, 0, False)
