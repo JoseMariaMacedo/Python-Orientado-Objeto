@@ -1,3 +1,6 @@
+from smtplib import quotedata
+
+
 class Carro():
     def __init__(self, cor, qtd_portas, tipo_combustivel, potencia, qtd_combustivel):
         self.cor = cor
@@ -6,5 +9,9 @@ class Carro():
         self.potencia = potencia
         self.qtd_combustivel = qtd_combustivel
         
+    def abastecer(self):
+        self.qtd_combustivel += 20
+        
+    
         
         
