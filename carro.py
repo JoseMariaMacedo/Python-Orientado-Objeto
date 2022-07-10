@@ -11,7 +11,7 @@ class Carro():
         self.potencia = potencia
         self.qtd_combustivel = qtd_combustivel
         self.is_ligado = is_ligado
-        self.velociade = velocidade
+        self.velocidade = velocidade
         
     def abastecer(self, qtd_combustivel):
         self.qtd_combustivel += qtd_combustivel
