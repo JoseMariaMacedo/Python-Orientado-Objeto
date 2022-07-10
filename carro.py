@@ -20,6 +20,7 @@ class Carro():
             print("O carro já está ligado")
         else:
             self.is_ligado = True
+            print("O carro foi ligado")
             
     def desligar(self):
         if self.is_ligado == False:
