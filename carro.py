@@ -4,6 +4,8 @@ from tkinter.tix import Tree
 
 
 class Carro():
+    """Essa e a classe carro. Esta classe e utilizada para instanciar
+    novos carros nosso programa."""
     def __init__(self, cor, qtd_portas, tipo_combustivel, potencia, qtd_combustivel, is_ligado, velocidade ):
         self.cor = cor
         self.qtd_portas = qtd_portas
