@@ -12,8 +12,8 @@ class Carro():
         self.qtd_combustivel = qtd_combustivel
         self.is_ligado = is_ligado
         
-    def abastecer(self):
-        self.qtd_combustivel += 20
+    def abastecer(self, qtd_combustivel):
+        self.qtd_combustivel += qtd_combustivel
         
     def ligar(self):
         if self.is_ligado:
